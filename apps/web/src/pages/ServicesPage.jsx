@@ -9,10 +9,10 @@ import Footer from '@/components/Footer.jsx';
 const ServicesPage = () => {
   const services = [
     'WEB DESIGN',
-    'SOCIAL MEDIA MARKETING',
+    'SOCIAL MEDIA EXPERT',
     'AI CONTENT CREATION',
     'CREATIVE DIRECTION',
-    'BRAND DESIGN',
+    'CANVA DESIGN',
     'CONTENT PRODUCT'
   ];
 
