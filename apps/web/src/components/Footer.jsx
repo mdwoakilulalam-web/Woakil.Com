@@ -55,7 +55,7 @@ const Footer = () => {
 
         <div className="pt-8 border-t border-background/20 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-background/50 font-medium tracking-wide">
-            © {currentYear} STUDIO. ALL RIGHTS RESERVED.
+            © {currentYear} WOAKIL WOULD. All Rights Reserved.
           </p>
           <div className="flex gap-8">
             <Link to="/privacy" className="text-sm text-background/50 hover:text-primary transition-colors duration-200 font-medium tracking-wide">

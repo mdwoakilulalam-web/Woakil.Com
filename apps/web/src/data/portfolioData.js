@@ -1,17 +1,18 @@
 export const portfolioData = [
   {
-    id: 'fashion-neon-dreams',
-    title: 'Neon Dreams',
-    category: 'Fashion',
-    description: 'High-contrast fashion editorial featuring bold neon styling against deep studio backgrounds.',
+    id: 'woakil-portfolio',
+    title: 'WOAKIL PORTFOLIO',
+    category: 'Portfolio',
+    description:'A modern personal portfolio showcasing my skills, projects, and web development journey.',
     images: [
-      'https://images.unsplash.com/photo-1536293283170-b4604bbe272f',
-      'https://images.unsplash.com/photo-1641236210747-48bc43e4517f'
+      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=1200&auto=format&fit=crop&q=80"
+    
     ],
-    client: 'Vogue Avant',
+
     date: '2026-03-15',
     featured: true,
-    tags: ['Studio', 'Neon', 'Styling']
+    tags: ['Personal', 'Navigation', 'Styling']
   },
   {
     id: 'beauty-crimson-glow',

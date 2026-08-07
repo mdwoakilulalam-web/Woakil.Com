@@ -14,7 +14,7 @@ const PortfolioPage = () => {
   return (
     <>
       <Helmet>
-        <title>Archive - STUDIO</title>
+        <title>Archive - WOAKIL WOULD</title>
         <meta name="description" content="Complete archive of creative direction and editorial design projects." />
       </Helmet>
 

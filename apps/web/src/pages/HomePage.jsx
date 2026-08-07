@@ -17,7 +17,7 @@ const HomePage = () => {
   return (
     <>
       <Helmet>
-        <title>STUDIO - Creative Direction & Design</title>
+        <title>woakil would - Creative Direction & Design</title>
         <meta name="description" content="Modern editorial design and creative direction studio." />
       </Helmet>
 
@@ -31,7 +31,7 @@ const HomePage = () => {
           className="w-full"
         >
           <h2 className="text-primary font-bold tracking-widest uppercase text-sm md:text-base mb-6">
-            Creative Studio Elite Designs
+            Creative Portfolio Elite Designs
           </h2>
           <h1 className="text-[12vw] leading-[0.85] font-bold tracking-tighter uppercase mb-12 break-words">
             PORTFOLIO<br />
@@ -40,7 +40,7 @@ const HomePage = () => {
           
           <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-8 border-t border-border pt-8">
             <p className="text-xl md:text-2xl max-w-xl font-light leading-snug">
-              We craft bold, geometric, and unapologetic visual identities for brands that refuse to blend in.
+              I design and develop modern, fast, and responsive websites with clean code and exceptional user experiences. Every project is built to combine creativity, performance, and functionality.
             </p>
             <Button asChild size="lg" className="rounded-none text-sm tracking-widest uppercase font-bold h-14 px-8">
               <Link to="/portfolio">

@@ -11,7 +11,7 @@ const AboutPage = () => {
   return (
     <>
       <Helmet>
-        <title>About - STUDIO</title>
+        <title>About - woakil would</title>
         <meta name="description" content="Our story, approach, and the team behind the studio." />
       </Helmet>
 
@@ -26,10 +26,10 @@ const AboutPage = () => {
             className="mb-24 border-b border-border pb-12"
           >
             <h1 className="text-6xl md:text-8xl font-bold tracking-tighter uppercase mb-8">
-              MANIFESTO
+              MY JOURNEY IN WEB DEVELOPMENT
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl font-light leading-snug">
-              We are an independent creative studio focused on bold typography, stark contrasts, and uncompromising digital experiences.
+              My journey began with curiosity and has grown through continuous learning, practical projects, and exploring modern web technologies such as HTML, CSS, JavaScript, React, Node.js, and Tailwind CSS.
             </p>
           </motion.div>
 
@@ -42,8 +42,8 @@ const AboutPage = () => {
               className="aspect-[3/4] bg-muted relative overflow-hidden"
             >
               <img
-                src="https://images.unsplash.com/photo-1505761809615-0e2a532be598?w=1000&h=1333&fit=crop"
-                alt="Studio direction"
+                src="https://images.unsplash.com/photo-1504593811423-6dd665756598"
+                alt="woakil direction"
                 className="w-full h-full object-cover grayscale"
               />
               <div className="absolute inset-0 bg-black/10 mix-blend-multiply" />
@@ -57,28 +57,28 @@ const AboutPage = () => {
                 transition={{ duration: 0.6, delay: 0.2 }}
               >
                 <h2 className="text-3xl md:text-5xl font-bold tracking-tighter uppercase mb-8">
-                  DESIGN WITHOUT COMPROMISE
+                  JOURNEY BEYOND LIMITS
                 </h2>
                 <div className="space-y-6 text-lg font-light leading-relaxed text-muted-foreground">
                   <p>
-                    Founded on the principle that good design should be felt as much as seen, we strip away the unnecessary to reveal the core truth of every brand we touch.
+                    I'm Woakil, a passionate student and aspiring Full-Stack Web Developer. I specialize in building modern, responsive, and user-focused websites that combine clean design with high performance.
                   </p>
                   <p>
-                    Our approach is rooted in editorial design principles—utilizing stark contrasts, geometric precision, and massive typography to create digital experiences that demand attention.
+                    Every project helps me improve my skills, solve real-world problems, and build digital experiences that are fast, accessible, and visually engaging.
                   </p>
                   <p>
-                    We don't follow trends; we establish visual systems that endure.
+                   From responsive portfolio websites to dynamic web applications, my goal is to create digital experiences that are fast, accessible, visually engaging, and built to make a lasting impact.
                   </p>
                 </div>
                 
                 <div className="grid grid-cols-2 gap-8 mt-16 pt-12 border-t border-border">
                   <div>
-                    <span className="text-5xl font-bold tracking-tighter block mb-2">05</span>
+                    <span className="text-5xl font-bold tracking-tighter block mb-2">02</span>
                     <span className="text-xs font-bold tracking-widest uppercase text-muted-foreground">YEARS ACTIVE</span>
                   </div>
                   <div>
-                    <span className="text-5xl font-bold tracking-tighter block mb-2">42</span>
-                    <span className="text-xs font-bold tracking-widest uppercase text-muted-foreground">GLOBAL AWARDS</span>
+                    <span className="text-5xl font-bold tracking-tighter block mb-2">08</span>
+                    <span className="text-xs font-bold tracking-widest uppercase text-muted-foreground">TECHNOLOGIES</span>
                   </div>
                 </div>
               </motion.div>
@@ -126,7 +126,7 @@ const AboutPage = () => {
               JOIN THE ROSTER
             </h2>
             <Button asChild size="lg" className="rounded-none text-sm tracking-widest uppercase font-bold h-14 px-12">
-              <Link to="/contact">CONTACT STUDIO</Link>
+              <Link to="/contact">CONTACT MY WOULD</Link>
             </Button>
           </motion.div>
         </div>
