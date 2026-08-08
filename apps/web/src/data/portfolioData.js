@@ -15,299 +15,328 @@ export const portfolioData = [
     tags: ['Personal', 'Navigation', 'Styling']
   },
   {
-    id: 'beauty-crimson-glow',
-    title: 'Crimson Glow',
-    category: 'Beauty',
-    description: 'Close-up beauty photography emphasizing saturated red tones and flawless skin texture.',
+    id: 'student-management-system',
+    title: 'Student Management System',
+    category: 'Web Apps',
+    description: 'A complete student management platform with attendance, results, and dashboard.',
     images: [
-      'https://images.unsplash.com/photo-1641236210747-48bc43e4517f',
-      'https://images.unsplash.com/photo-1683849119205-e2b228d2a0a1'
+            "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=1200&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1200&auto=format&fit=crop&q=80"
     ],
-    client: 'Lumière Cosmetics',
+
     date: '2026-02-28',
     featured: true,
     tags: ['Macro', 'Skin', 'Color']
   },
   {
-    id: 'editorial-azure-isolation',
-    title: 'Azure Isolation',
-    category: 'Editorial',
-    description: 'Striking editorial piece utilizing monochromatic blue environments to isolate the subject.',
+    id: 'Ecommerce-Website',
+    title: 'Ecommerce Website',
+    category: 'Full Stack',
+    description: 'A fully responsive e-commerce website with product catalog, shopping cart, and checkout functionality.',
     images: [
-      'https://images.unsplash.com/photo-1683849119205-e2b228d2a0a1',
-      'https://images.unsplash.com/photo-1674978091945-2b7af2e6c0bf'
+    "https://images.unsplash.com/photo-1556740749-887f6717d7e4  ?w=1200&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1557821552-17105176677c?w=1200&auto=format&fit=crop&q=80"
     ],
-    client: 'Dazed Digital',
+    
     date: '2026-01-14',
     featured: true,
-    tags: ['Monochrome', 'Set Design', 'Avant-Garde']
+    tags: ['Full Stack', 'SEO', 'E-commerce']
   },
   {
-    id: 'portrait-golden-hour',
-    title: 'Golden Hour',
-    category: 'Portrait',
-    description: 'Warm, intimate portraiture capturing the essence of modern youth culture.',
+    id: 'Blog-platform',
+    title: 'Blog Platform',
+    category: 'Web Apps',
+        description: "Responsive blog platform with authentication, comments, and article management.",
     images: [
-      'https://images.unsplash.com/photo-1674978091945-2b7af2e6c0bf',
-      'https://images.unsplash.com/photo-1544212408-c711b7c19b92'
+         "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=1200&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1484417894907-623942c8ee29?w=1200&auto=format&fit=crop&q=80"
     ],
-    client: 'i-D Magazine',
+    
     date: '2025-11-30',
     featured: true,
-    tags: ['Natural Light', 'Youth', 'Candid']
+    tags: ['Blog', 'Authentication', 'Comments']
   },
   {
-    id: 'fashion-color-block',
-    title: 'Color Block',
-    category: 'Fashion',
-    description: 'Studio fashion series exploring the intersection of primary colors and geometric silhouettes.',
+    id: 'Restaurant-Website',
+    title: 'Restaurant Website',
+    category: 'Portfolio',
+    description: 'A responsive website for a local restaurant, featuring menu display and online ordering.',
     images: [
-      'https://images.unsplash.com/photo-1544212408-c711b7c19b92',
-      'https://images.unsplash.com/photo-1683122806164-503f7efe7a67'
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=1200&auto=format&fit=crop&q=80"
     ],
-    client: 'Maison Élégance',
+  
     date: '2025-10-22',
     featured: true,
-    tags: ['Studio', 'Primary Colors', 'Geometry']
+    tags: ['Restaurant', 'Menu', 'Ordering']
   },
   {
-    id: 'beauty-ethereal-light',
-    title: 'Ethereal Light',
-    category: 'Beauty',
-    description: 'Soft, diffused beauty portraits highlighting natural radiance and minimal makeup.',
+    id: 'Ai assistant',
+    title: 'AI Assistant',
+    category: 'Full Stack',
+    description: 'A conversational AI assistant designed to help users with various tasks and inquiries.',
     images: [
-      'https://images.unsplash.com/photo-1683122806164-503f7efe7a67',
-      'https://images.unsplash.com/photo-1642806409952-6ca2aa5ee674'
+       "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=1200&auto=format&fit=crop&q=80"
     ],
-    client: 'Glossier',
+    
     date: '2025-09-18',
     featured: false,
-    tags: ['Minimal', 'Radiance', 'Soft Focus']
+    tags: ['AI', 'Chatbot', 'Full Stack']
   },
   {
-    id: 'editorial-urban-geometry',
-    title: 'Urban Geometry',
-    category: 'Editorial',
-    description: 'Fashion editorial set against brutalist architecture, emphasizing structural garments.',
+    id: 'Weather-App',
+    title: 'Weather App',
+    category: 'Mobile Apps',
+    description: 'A sleek weather application providing real-time forecasts and location-based information.',
     images: [
-      'https://images.unsplash.com/photo-1642806409952-6ca2aa5ee674',
-      'https://images.unsplash.com/photo-1620252655460-080dbec533ca'
+      "https://images.unsplash.com/photo-1642806409952-6ca2aa5ee674?w=1200&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1620252655460-080dbec533ca?w=1200&auto=format&fit=crop&q=80"
     ],
-    client: 'Harper\'s Bazaar',
+   
     date: '2025-08-05',
     featured: false,
-    tags: ['Architecture', 'Structure', 'Location']
+    tags: ['Weather', 'Forecast', 'Mobile']
   },
   {
-    id: 'portrait-shadow-play',
-    title: 'Shadow Play',
-    category: 'Portrait',
-    description: 'Dramatic studio portraits utilizing harsh lighting to create striking silhouettes.',
-    images: [
-      'https://images.unsplash.com/photo-1620252655460-080dbec533ca',
-      'https://images.unsplash.com/photo-1682341041839-18b6f62490b5'
-    ],
-    client: 'Personal Project',
-    date: '2025-07-12',
-    featured: false,
-    tags: ['Chiaroscuro', 'Drama', 'Black & White']
+      id: 'smart-shop',
+  title: 'SmartShop',
+  category: 'Full Stack',
+  description: 'A modern e-commerce platform with product browsing, shopping cart, user authentication, and a clean responsive interface.',
+  images: [
+    "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1200&auto=format&fit=crop&q=80",
+    "https://images.unsplash.com/photo-1556742111-a301076d9d18?w=1200&auto=format&fit=crop&q=80"
+  ],
+ 
+  date: '2026-07-02',
+  featured: true,
+  tags: ['React', 'Node.js', 'E-Commerce']
   },
-  {
-    id: 'fashion-pastel-dreamscape',
-    title: 'Pastel Dreamscape',
-    category: 'Fashion',
-    description: 'Whimsical fashion story featuring soft pastel tones and flowing fabrics.',
-    images: [
-      'https://images.unsplash.com/photo-1682341041839-18b6f62490b5',
-      'https://images.unsplash.com/photo-1635418914759-90f2bd6d2e79'
-    ],
-    client: 'Elle Magazine',
-    date: '2025-06-20',
-    featured: false,
-    tags: ['Pastel', 'Whimsical', 'Movement']
-  },
-  {
-    id: 'beauty-metallic-sheen',
-    title: 'Metallic Sheen',
-    category: 'Beauty',
-    description: 'Avant-garde beauty editorial focusing on metallic textures and reflective surfaces.',
-    images: [
-      'https://images.unsplash.com/photo-1635418914759-90f2bd6d2e79',
-      'https://images.unsplash.com/photo-1703385283534-63aec7eba396'
-    ],
-    client: 'Pat McGrath Labs',
-    date: '2025-05-15',
-    featured: false,
-    tags: ['Metallic', 'Texture', 'Avant-Garde']
-  },
-  {
-    id: 'editorial-desert-mirage',
-    title: 'Desert Mirage',
-    category: 'Editorial',
-    description: 'Location shoot in arid landscapes, contrasting high fashion with harsh environments.',
-    images: [
-      'https://images.unsplash.com/photo-1703385283534-63aec7eba396',
-      'https://images.unsplash.com/photo-1681023300572-8ba4c0f2a8f4'
-    ],
-    client: 'GQ Style',
-    date: '2025-04-10',
-    featured: false,
-    tags: ['Location', 'Contrast', 'Nature']
-  },
-  {
-    id: 'portrait-raw-emotion',
-    title: 'Raw Emotion',
-    category: 'Portrait',
-    description: 'Stripped-back portrait series capturing vulnerable, unposed moments.',
-    images: [
-      'https://images.unsplash.com/photo-1681023300572-8ba4c0f2a8f4',
-      'https://images.unsplash.com/photo-1695133640294-edac1afe19b4'
-    ],
-    client: 'Kinfolk',
-    date: '2025-03-05',
-    featured: false,
-    tags: ['Vulnerability', 'Authentic', 'Close-up']
-  },
-  {
-    id: 'fashion-midnight-velvet',
-    title: 'Midnight Velvet',
-    category: 'Fashion',
-    description: 'Evening wear campaign highlighting rich textures and deep, moody lighting.',
-    images: [
-      'https://images.unsplash.com/photo-1695133640294-edac1afe19b4',
-      'https://images.unsplash.com/photo-1670436972551-056efbe1e3de'
-    ],
-    client: 'Saint Laurent',
-    date: '2025-02-18',
-    featured: false,
-    tags: ['Evening', 'Texture', 'Moody']
-  },
-  {
-    id: 'beauty-floral-infusion',
-    title: 'Floral Infusion',
-    category: 'Beauty',
-    description: 'Creative beauty portraits integrating fresh botanicals and vibrant pigments.',
-    images: [
-      'https://images.unsplash.com/photo-1670436972551-056efbe1e3de',
-      'https://images.unsplash.com/photo-1620122303020-87ec826cf70d'
-    ],
-    client: 'Fenty Beauty',
-    date: '2025-01-22',
-    featured: false,
-    tags: ['Botanical', 'Pigment', 'Creative']
-  },
-  {
-    id: 'editorial-retro-futurism',
-    title: 'Retro Futurism',
-    category: 'Editorial',
-    description: 'Stylized editorial blending 70s aesthetics with futuristic fashion concepts.',
-    images: [
-      'https://images.unsplash.com/photo-1620122303020-87ec826cf70d',
-      'https://images.unsplash.com/photo-1545166832-72206baca8df'
-    ],
-    client: 'Paper Magazine',
-    date: '2024-12-10',
-    featured: false,
-    tags: ['Retro', 'Sci-Fi', 'Styling']
-  },
-  {
-    id: 'portrait-neon-noir',
-    title: 'Neon Noir',
-    category: 'Portrait',
-    description: 'Cinematic portraits shot on location in neon-lit urban environments.',
-    images: [
-      'https://images.unsplash.com/photo-1545166832-72206baca8df',
-      'https://images.unsplash.com/photo-1688428017697-30426b7a4c0f'
-    ],
-    client: 'Highsnobiety',
-    date: '2024-11-05',
-    featured: false,
-    tags: ['Cinematic', 'Night', 'Urban']
-  },
-  {
-    id: 'fashion-sculptural-forms',
-    title: 'Sculptural Forms',
-    category: 'Fashion',
-    description: 'Studio focus on avant-garde, sculptural garments that challenge traditional silhouettes.',
-    images: [
-      'https://images.unsplash.com/photo-1688428017697-30426b7a4c0f',
-      'https://images.unsplash.com/photo-1548544988-f7dfefd99d6d'
-    ],
-    client: 'Comme des Garçons',
-    date: '2024-10-15',
-    featured: false,
-    tags: ['Sculpture', 'Avant-Garde', 'Form']
-  },
-  {
-    id: 'beauty-glass-skin',
-    title: 'Glass Skin',
-    category: 'Beauty',
-    description: 'Hyper-real beauty photography showcasing ultra-hydrated, reflective skin finishes.',
-    images: [
-      'https://images.unsplash.com/photo-1548544988-f7dfefd99d6d',
-      'https://images.unsplash.com/flagged/photo-1572561701232-6c3bc9ef5aea'
-    ],
-    client: 'Shiseido',
-    date: '2024-09-20',
-    featured: false,
-    tags: ['Hyper-real', 'Dewy', 'Close-up']
-  },
-  {
-    id: 'editorial-suburban-gothic',
-    title: 'Suburban Gothic',
-    category: 'Editorial',
-    description: 'Dark, moody fashion story set against mundane suburban backdrops.',
-    images: [
-      'https://images.unsplash.com/flagged/photo-1572561701232-6c3bc9ef5aea',
-      'https://images.unsplash.com/photo-1483732758364-b43407e6f98a'
-    ],
-    client: 'W Magazine',
-    date: '2024-08-12',
-    featured: false,
-    tags: ['Gothic', 'Suburban', 'Contrast']
-  },
-  {
-    id: 'portrait-sun-drenched',
-    title: 'Sun Drenched',
-    category: 'Portrait',
-    description: 'Bright, overexposed portraits capturing the hazy feeling of mid-summer.',
-    images: [
-      'https://images.unsplash.com/photo-1483732758364-b43407e6f98a',
-      'https://images.unsplash.com/photo-1698476803391-cef4134df5c2'
-    ],
-    client: 'Cereal Magazine',
-    date: '2024-07-25',
-    featured: false,
-    tags: ['Summer', 'Overexposed', 'Haze']
-  },
-  {
-    id: 'fashion-monochrome-minimal',
-    title: 'Monochrome Minimal',
-    category: 'Fashion',
-    description: 'A study in restraint, featuring entirely black and white styling and sets.',
-    images: [
-      'https://images.unsplash.com/photo-1698476803391-cef4134df5c2',
-      'https://images.unsplash.com/photo-1550322532-9adfdfda7fb6'
-    ],
-    client: 'Jil Sander',
-    date: '2024-06-10',
-    featured: false,
-    tags: ['Minimalism', 'B&W', 'Restraint']
-  },
-  {
-    id: 'beauty-vivid-strokes',
-    title: 'Vivid Strokes',
-    category: 'Beauty',
-    description: 'Expressive beauty editorial using makeup as paint on the canvas of the face.',
-    images: [
-      'https://images.unsplash.com/photo-1550322532-9adfdfda7fb6',
-      'https://images.unsplash.com/photo-1536293283170-b4604bbe272f'
-    ],
-    client: 'MAC Cosmetics',
-    date: '2024-05-05',
-    featured: false,
-    tags: ['Artistic', 'Paint', 'Expression']
-  }
+  
+   {
+  id: 'portfolio-digital-identity',
+  title: 'Digital Identity',
+  category: 'Portfolio',
+  description: 'A bold personal portfolio experience designed to showcase skills, projects, creativity, and a growing journey in web development.',
+  images: [
+    'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200&auto=format&fit=crop&q=80',
+    'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1200&auto=format&fit=crop&q=80'
+  ],
+
+  date: '2026-07-28',
+  featured: true,
+  tags: ['Portfolio', 'Personal Brand', 'Web Design']
+},
+
+{
+  id: 'student-campus-hub',
+  title: 'Campus Hub',
+  category: 'Web Apps',
+  description: 'A student-focused web application for organizing academic information, announcements, schedules, and campus resources.',
+  images: [
+    'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1200&auto=format&fit=crop&q=80',
+    'https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=1200&auto=format&fit=crop&q=80'
+  ],
+
+  date: '2026-07-18',
+  featured: true,
+  tags: ['Student', 'Education', 'React']
+},
+
+{
+  id: 'commerce-core',
+  title: 'Commerce Core',
+  category: 'Full Stack',
+  description: 'A complete e-commerce experience featuring product discovery, shopping cart functionality, authentication, and responsive layouts.',
+  images: [
+    'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1200&auto=format&fit=crop&q=80',
+    'https://images.unsplash.com/photo-1557821552-17105176677c?w=1200&auto=format&fit=crop&q=80'
+  ],
+  
+  date: '2026-07-05',
+  featured: true,
+  tags: ['E-Commerce', 'React', 'Node.js']
+},
+
+{
+  id: 'visual-dashboard',
+  title: 'Visual Dashboard',
+  category: 'UI/UX',
+  description: 'A clean analytics dashboard concept focused on data visualization, intuitive navigation, and a modern user interface.',
+  images: [
+    'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&auto=format&fit=crop&q=80',
+    'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&auto=format&fit=crop&q=80'
+  ],
+ 
+  date: '2026-06-22',
+  featured: false,
+  tags: ['Dashboard', 'Analytics', 'UI Design']
+},
+
+{
+  id: 'code-journal',
+  title: 'Code Journal',
+  category: 'Web Apps',
+  description: 'A personal blogging platform for sharing programming tutorials, development notes, project stories, and technical ideas.',
+  images: [
+    'https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=1200&auto=format&fit=crop&q=80',
+    'https://images.unsplash.com/photo-1484417894907-623942c8ee29?w=1200&auto=format&fit=crop&q=80'
+  ],
+ 
+  date: '2026-06-10',
+  featured: true,
+  tags: ['Blog', 'JavaScript', 'Content']
+},
+
+{
+  id: 'food-ordering-platform',
+  title: 'Foodly',
+  category: 'Full Stack',
+  description: 'A modern food ordering platform concept with restaurant discovery, menu browsing, cart management, and a smooth checkout experience.',
+  images: [
+    'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&auto=format&fit=crop&q=80',
+    'https://images.unsplash.com/photo-1552566626-52f8b828add9?w=1200&auto=format&fit=crop&q=80'
+  ],
+  
+  date: '2026-05-26',
+  featured: false,
+  tags: ['Food', 'Ordering', 'Full Stack']
+},
+
+{
+  id: 'ai-assistant-lab',
+  title: 'AI Assistant Lab',
+  category: 'Full Stack',
+  description: 'An experimental AI assistant interface exploring conversational interactions, smart tools, and modern application design.',
+  images: [
+    'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&auto=format&fit=crop&q=80',
+    'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=1200&auto=format&fit=crop&q=80'
+  ],
+
+  date: '2026-05-12',
+  featured: true,
+  tags: ['AI', 'Assistant', 'Innovation']
+},
+
+{
+  id: 'weather-now',
+  title: 'Weather Now',
+  category: 'Web Apps',
+  description: 'A simple real-time weather application providing current conditions, forecasts, and location-based weather information.',
+  images: [
+    'https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=1200&auto=format&fit=crop&q=80',
+    'https://images.unsplash.com/photo-1534088568595-a066f410bcda?w=1200&auto=format&fit=crop&q=80'
+  ],
+
+  date: '2026-04-28',
+  featured: false,
+  tags: ['Weather API', 'JavaScript', 'API']
+},
+
+{
+  id: 'creative-studio',
+  title: 'Creative Studio',
+  category: 'Portfolio',
+  description: 'A visually driven studio website combining bold typography, clean layouts, smooth interactions, and modern visual storytelling.',
+  images: [
+    'https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=1200&auto=format&fit=crop&q=80',
+    'https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=1200&auto=format&fit=crop&q=80'
+  ],
+  
+  date: '2026-04-14',
+  featured: true,
+  tags: ['Creative', 'Typography', 'Branding']
+},
+
+{
+  id: 'taskflow-manager',
+  title: 'TaskFlow',
+  category: 'Web Apps',
+  description: 'A productivity application that helps users organize tasks, manage priorities, and keep track of personal projects.',
+  images: [
+    'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=1200&auto=format&fit=crop&q=80',
+    'https://images.unsplash.com/photo-1540350394557-8d14678e17f3?w=1200&auto=format&fit=crop&q=80'
+  ],
+
+  date: '2026-03-30',
+  featured: false,
+  tags: ['Productivity', 'Tasks', 'Web App']
+},
+
+{
+  id: 'career-connect',
+  title: 'Career Connect',
+  category: 'Full Stack',
+  description: 'A career discovery platform designed to connect students and professionals with opportunities through a simple and accessible interface.',
+  images: [
+    'https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=1200&auto=format&fit=crop&q=80',
+    'https://images.unsplash.com/photo-1556761175-b413da4baf72?w=1200&auto=format&fit=crop&q=80'
+  ],
+  
+  date: '2026-03-16',
+  featured: false,
+  tags: ['Career', 'Platform', 'Backend']
+},
+
+{
+  id: 'fitness-tracker',
+  title: 'FitTrack',
+  category: 'UI/UX',
+  description: 'A responsive fitness tracking interface designed to monitor workouts, daily activity, personal goals, and progress.',
+  images: [
+    'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=1200&auto=format&fit=crop&q=80',
+    'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1200&auto=format&fit=crop&q=80'
+  ],
+
+  date: '2026-02-25',
+  featured: false,
+  tags: ['Fitness', 'Tracking', 'Mobile UI']
+},
+
+{
+  id: 'newsroom',
+  title: 'Newsroom',
+  category: 'Web Apps',
+  description: 'A responsive news reading platform with featured stories, categories, search, and an optimized article browsing experience.',
+  images: [
+    'https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=1200&auto=format&fit=crop&q=80',
+    'https://images.unsplash.com/photo-1495020689067-958852a7765e?w=1200&auto=format&fit=crop&q=80'
+  ],
+  
+  date: '2026-02-10',
+  featured: false,
+  tags: ['News', 'Search', 'Frontend']
+},
+
+{
+  id: 'music-player',
+  title: 'Pulse Player',
+  category: 'UI/UX',
+  description: 'A modern music player interface focused on immersive visuals, simple controls, playlists, and a smooth listening experience.',
+  images: [
+    'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=1200&auto=format&fit=crop&q=80',
+    'https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=1200&auto=format&fit=crop&q=80'
+  ],
+  
+  date: '2026-01-24',
+  featured: false,
+  tags: ['Music', 'Player', 'Interaction']
+},
+
+{
+  id: 'event-booking',
+  title: 'EventHub',
+  category: 'Full Stack',
+  description: 'An event discovery and booking platform concept for exploring events, viewing schedules, and managing reservations.',
+  images: [
+    'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=1200&auto=format&fit=crop&q=80',
+    'https://images.unsplash.com/photo-1501386761578-eac5c94b800a?w=1200&auto=format&fit=crop&q=80'
+  ],
+  
+  date: '2026-01-10',
+  featured: true,
+  tags: ['Events', 'Booking', 'Database']
+}
 ];
 
-export const categories = ['All', 'Fashion', 'Beauty', 'Editorial', 'Portrait'];
+export const categories = ['All', 'Portfolio', 'Web Apps', 'Full Stack', 'UI/UX'];

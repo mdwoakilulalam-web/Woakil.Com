@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import Header from '@/components/Header.jsx';
 import Footer from '@/components/Footer.jsx';
 import { Button } from '@/components/ui/button';
-import { clientLogos } from '@/data/clientLogos.js';
+
 
 const AboutPage = () => {
   return (
