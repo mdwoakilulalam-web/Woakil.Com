@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Instagram, Linkedin, Eail, ArrowUpRight } from 'lucide-react';
+import { Instagram, Linkedin, Mail, ArrowUpRight } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -55,7 +55,7 @@ const Footer = () => {
 
         <div className="pt-8 border-t border-background/20 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-background/50 font-medium tracking-wide">
-            © {currentYear} WOAKIL WOULD. All Rights Reserved.
+            © {currentYear} STUDIO. ALL RIGHTS RESERVED.
           </p>
           <div className="flex gap-8">
             <Link to="/privacy" className="text-sm text-background/50 hover:text-primary transition-colors duration-200 font-medium tracking-wide">
