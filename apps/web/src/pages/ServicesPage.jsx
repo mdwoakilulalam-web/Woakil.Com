@@ -19,7 +19,7 @@ const ServicesPage = () => {
   return (
     <>
       <Helmet>
-        <title>Capabilities - WOAKIL WOULD</title>
+        <title>Capabilities - WOAKIL WORLD</title>
         <meta name="description" content="Our core capabilities and creative services." />
       </Helmet>
 

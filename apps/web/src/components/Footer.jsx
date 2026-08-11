@@ -11,10 +11,10 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-20">
           <div className="lg:col-span-2">
             <span className="text-4xl font-bold tracking-tighter uppercase font-['Space_Grotesk'] mb-6 block">
-              STUDIO<span className="text-primary">.</span>
+              W.WORLD<span className="text-primary">.</span>
             </span>
             <p className="text-lg text-background/70 max-w-md font-light">
-              CREATIVE DIRECTION & MODERN EDITORIAL DESIGN FOR FORWARD-THINKING BRANDS.
+             We turn ideas into bold identities, thoughtful experiences, and digital work that stands apart.
             </p>
           </div>
 
@@ -55,12 +55,13 @@ const Footer = () => {
 
         <div className="pt-8 border-t border-background/20 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-background/50 font-medium tracking-wide">
-            © {currentYear} STUDIO. ALL RIGHTS RESERVED.
+            © {currentYear}  WOAKIL WORLD. All rights reserved.
           </p>
           <div className="flex gap-8">
             <Link to="/privacy" className="text-sm text-background/50 hover:text-primary transition-colors duration-200 font-medium tracking-wide">
               PRIVACY
             </Link>
+
             <Link to="/terms" className="text-sm text-background/50 hover:text-primary transition-colors duration-200 font-medium tracking-wide">
               TERMS
             </Link>

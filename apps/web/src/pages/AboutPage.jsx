@@ -5,13 +5,13 @@ import { Link } from 'react-router-dom';
 import Header from '@/components/Header.jsx';
 import Footer from '@/components/Footer.jsx';
 import { Button } from '@/components/ui/button';
-
+import { clientLogos } from '@/data/clientLogos.js';
 
 const AboutPage = () => {
   return (
     <>
       <Helmet>
-        <title>About - woakil would</title>
+        <title>About - woakil world</title>
         <meta name="description" content="Our story, approach, and the team behind the studio." />
       </Helmet>
 
@@ -126,7 +126,7 @@ const AboutPage = () => {
               JOIN THE ROSTER
             </h2>
             <Button asChild size="lg" className="rounded-none text-sm tracking-widest uppercase font-bold h-14 px-12">
-              <Link to="/contact">CONTACT MY WOULD</Link>
+              <Link to="/contact">CONTACT MY WORLD</Link>
             </Button>
           </motion.div>
         </div>

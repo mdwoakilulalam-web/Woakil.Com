@@ -34,11 +34,11 @@ const Header = () => {
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 border-b ${
         isScrolled ? 'bg-background/95 backdrop-blur-md border-border' : 'bg-transparent border-transparent'
       }`}
-    >
+     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <Link to="/" className="text-2xl font-bold tracking-tighter uppercase font-['Space_Grotesk']">
-            WOAKIL WOULD<span className="text-primary">.</span>
+            WOAKIL WORLD<span className="text-primary">.</span>
           </Link>
 
           <nav className="hidden md:flex items-center gap-8">

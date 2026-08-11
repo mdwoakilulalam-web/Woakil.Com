@@ -14,5 +14,8 @@
   },
   "workspaces": [
     "apps/*"
-  ]
+  ],
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1"
+  }
 }

@@ -8,18 +8,22 @@ import ProjectPage from '@/pages/ProjectPage.jsx';
 import AboutPage from '@/pages/AboutPage.jsx';
 import ServicesPage from '@/pages/ServicesPage.jsx';
 import ContactPage from '@/pages/ContactPage.jsx';
+import PrivacyPage from '@/pages/PrivacyPage.jsx';
+import TermsPage from '@/pages/TermsPage.jsx';
 
 function App() {
   return (
     <Router>
       <ScrollToTop />
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/portfolio" element={<PortfolioPage />} />
-        <Route path="/project/:id" element={<ProjectPage />} />
-        <Route path="/about" element={<AboutPage />} />
-        <Route path="/services" element={<ServicesPage />} />
-        <Route path="/contact" element={<ContactPage />} />
+         <Route path="/" element={<HomePage />} />
+          <Route path="/portfolio" element={<PortfolioPage />} />
+           <Route path="/project/:id" element={<ProjectPage />} />
+           <Route path="/about" element={<AboutPage />} />
+           <Route path="/services" element={<ServicesPage />} />
+           <Route path="/contact" element={<ContactPage />} />
+           <Route path="/privacy" element={<PrivacyPage />} />
+           <Route path="/terms" element={<TermsPage />} />
         <Route path="*" element={
           <div className="min-h-screen flex items-center justify-center bg-background">
             <div className="text-center">

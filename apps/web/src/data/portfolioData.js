@@ -34,8 +34,7 @@ export const portfolioData = [
     category: 'Full Stack',
     description: 'A fully responsive e-commerce website with product catalog, shopping cart, and checkout functionality.',
     images: [
-    "https://images.unsplash.com/photo-1556740749-887f6717d7e4  ?w=1200&auto=format&fit=crop&q=80",
-      "https://images.unsplash.com/photo-1557821552-17105176677c?w=1200&auto=format&fit=crop&q=80"
+    "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1200&auto=format&fit=crop&q=80",
     ],
     
     date: '2026-01-14',
@@ -51,7 +50,7 @@ export const portfolioData = [
          "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=1200&auto=format&fit=crop&q=80",
       "https://images.unsplash.com/photo-1484417894907-623942c8ee29?w=1200&auto=format&fit=crop&q=80"
     ],
-    
+
     date: '2025-11-30',
     featured: true,
     tags: ['Blog', 'Authentication', 'Comments']
@@ -99,7 +98,7 @@ export const portfolioData = [
     tags: ['Weather', 'Forecast', 'Mobile']
   },
   {
-      id: 'smart-shop',
+  id: 'smart-shop',
   title: 'SmartShop',
   category: 'Full Stack',
   description: 'A modern e-commerce platform with product browsing, shopping cart, user authentication, and a clean responsive interface.',

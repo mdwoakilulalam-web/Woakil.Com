@@ -9,7 +9,7 @@ const ContactPage = () => {
   return (
     <>
       <Helmet>
-        <title>Contact - STUDIO</title>
+        <title>Contact - woakil world</title>
         <meta name="description" content="Get in touch with our creative studio." />
       </Helmet>
 
@@ -27,7 +27,7 @@ const ContactPage = () => {
               INITIATE
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl font-light leading-snug">
-              New projects, press inquiries, or general correspondence.
+              Have a project in mind? Fill out the form below and we'll get back to you as soon as possible.
             </p>
           </motion.div>
 
@@ -53,8 +53,8 @@ const ContactPage = () => {
               <div>
                 <h3 className="text-xs font-bold tracking-widest uppercase text-muted-foreground mb-6">DIRECT CONTACT</h3>
                 <div className="space-y-4">
-                  <a href="mailto:hello@studio.com" className="block text-2xl font-medium hover:text-primary transition-colors">
-                    HELLO@STUDIO.COM
+                  <a href="mailto:hello@woakil.com" className="block text-2xl font-medium hover:text-primary transition-colors">
+                    HELLO@WOAKIL.COM
                   </a>
                   <a href="tel:+15551234567" className="block text-2xl font-medium hover:text-primary transition-colors">
                     +1 (555) 123-4567
@@ -67,7 +67,7 @@ const ContactPage = () => {
                 <address className="not-italic text-xl font-light leading-relaxed">
                   100 CREATIVE WAY<br />
                   SUITE 400<br />
-                  NEW YORK, NY 10001
+                  Bangladesh,Dhaka, Badda-1212
                 </address>
               </div>
 

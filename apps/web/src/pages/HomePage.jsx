@@ -1,105 +1,163 @@
-import React from 'react';
-import { Helmet } from 'react-helmet';
-import { Link } from 'react-router-dom';
-import { motion } from 'framer-motion';
-import { ArrowRight } from 'lucide-react';
-import Header from '@/components/Header.jsx';
-import Footer from '@/components/Footer.jsx';
-import TestimonialCard from '@/components/TestimonialCard.jsx';
-import PortfolioCard from '@/components/PortfolioCard.jsx';
-import { portfolioData } from '@/data/portfolioData.js';
-import { testimonialsData } from '@/data/testimonialsData.js';
-import { Button } from '@/components/ui/button';
+import React from "react";
+import { motion } from "framer-motion";
+import { ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
+
+import Header from "@/components/Header.jsx";
+import Footer from "@/components/Footer.jsx";
 
 const HomePage = () => {
-  const featuredProjects = portfolioData.filter(project => project.featured).slice(0, 4);
-
   return (
-    <>
-      <Helmet>
-        <title>woakil would - Creative Direction & Design</title>
-        <meta name="description" content="Modern editorial design and creative direction studio." />
-      </Helmet>
+    <div className="min-h-screen bg-[#030712] text-white overflow-hidden">
 
       <Header />
 
-      <section className="min-h-[100dvh] flex flex-col justify-center pt-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
-        <motion.div
-          initial={{ opacity: 0, y: 40 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, ease: [0.21, 0.47, 0.32, 0.98] }}
-          className="w-full"
-        >
-          <h2 className="text-primary font-bold tracking-widest uppercase text-sm md:text-base mb-6">
-            Creative Portfolio Elite Designs
-          </h2>
-          <h1 className="text-[12vw] leading-[0.85] font-bold tracking-tighter uppercase mb-12 break-words">
-            PORTFOLIO<br />
-            <span className="text-stroke">EDITION</span>
-          </h1>
-          
-          <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-8 border-t border-border pt-8">
-            <p className="text-xl md:text-2xl max-w-xl font-light leading-snug">
-              I design and develop modern, fast, and responsive websites with clean code and exceptional user experiences. Every project is built to combine creativity, performance, and functionality.
-            </p>
-            <Button asChild size="lg" className="rounded-none text-sm tracking-widest uppercase font-bold h-14 px-8">
-              <Link to="/portfolio">
-                Explore Work
-                <ArrowRight className="ml-3 w-5 h-5" />
-              </Link>
-            </Button>
-          </div>
-        </motion.div>
-      </section>
+      {/* HERO */}
+      <main className="relative min-h-screen">
 
-      <section className="py-32 bg-background">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-end mb-20 border-b border-border pb-8">
-            <h2 className="text-5xl md:text-7xl font-bold tracking-tighter uppercase">
-              Selected<br />Works
-            </h2>
-            <span className="text-primary font-bold tracking-widest hidden md:block">2025—2026</span>
-          </div>
+        {/* Background glow */}
+        <div className="absolute inset-0 pointer-events-none">
+          <div className="absolute top-1/4 right-0 w-[600px] h-[600px] bg-red-600/10 blur-[150px] rounded-full" />
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-24">
-            {featuredProjects.map((project, index) => (
-              <div key={project.id} className={index % 2 === 1 ? 'md:mt-32' : ''}>
-                <PortfolioCard project={project} index={index} />
+          <div className="absolute bottom-0 left-0 w-[500px] h-[400px] bg-red-900/20 blur-[130px] rounded-full" />
+        </div>
+
+        <section className="relative max-w-7xl mx-auto px-6 lg:px-10 pt-32 lg:pt-40 pb-20">
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center min-h-[75vh]">
+
+            {/* LEFT SIDE */}
+            <motion.div
+              initial={{ opacity: 0, x: -40 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.8 }}
+              className="relative z-10"
+            >
+
+              {/* Small heading */}
+              <div className="flex items-center gap-4 mb-7">
+                <span className="w-12 h-[2px] bg-red-500" />
+
+                <span className="text-red-500 text-sm md:text-base font-medium tracking-widest uppercase">
+                  Creative Portfolio Elite Designs
+                </span>
               </div>
-            ))}
-          </div>
 
-          <div className="mt-32 text-center">
-            <Button asChild variant="outline" size="lg" className="rounded-none text-sm tracking-widest uppercase font-bold h-14 px-12 border-2 hover:bg-foreground hover:text-background transition-colors">
+              {/* Main heading */}
+              <h1 className="text-6xl sm:text-7xl md:text-8xl lg:text-[50px] xl:text-[100px] font-black uppercase leading-[0.82] tracking-[-0.06em]">
+
+                <span className="block text-white">
+                  Portfolio
+                </span>
+
+                <h2 className="text-6xl sm:text-7xl md:text-8xl lg:text-[30px] xl:text-[60px] font-black uppercase leading-[0.82] tracking-[-0.06em]">
+                <span className="block text-red-500">
+                  Edition
+                </span>
+                </h2>
+
+              </h1>
+              
+
+              {/* Line */}
+              <div className="w-16 h-[2px] bg-red-500 mt-10 mb-7" />
+
+              {/* Description */}
+              <p className="max-w-xl text-lg md:text-xl text-white/65 leading-relaxed">
+                I design and develop modern, fast, and responsive
+                websites with clean code and exceptional user
+                experiences. Every project is built to combine
+                creativity, performance, and functionality.
+              </p>
+
+              {/* Button */}
               <Link to="/portfolio">
-                View All Projects
+                <motion.button
+                  whileHover={{ scale: 1.03 }}
+                  whileTap={{ scale: 0.97 }}
+                  className="group mt-10 flex items-center gap-8 border border-red-500 px-7 py-5 text-red-500 font-semibold uppercase tracking-wide hover:bg-red-500 hover:text-white transition-all duration-300"
+                >
+                  Explore Work
+
+                  <ArrowRight
+                    className="group-hover:translate-x-2 transition-transform"
+                    size={22}
+                  />
+                </motion.button>
               </Link>
-            </Button>
-          </div>
-        </div>
-      </section>
 
-      <section className="py-32 bg-muted/30">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="mb-20">
-            <h2 className="text-5xl md:text-7xl font-bold tracking-tighter uppercase mb-6">
-              Client<br />Voices
-            </h2>
-            <p className="text-xl text-muted-foreground max-w-xl font-light">
-              Collaborations built on trust, bold ideas, and uncompromising execution.
-            </p>
+            </motion.div>
+
+
+            {/* RIGHT SIDE */}
+            <motion.div
+              initial={{ opacity: 0, scale: 0.8 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{
+                duration: 1,
+                delay: 0.2
+              }}
+              className="relative flex items-center justify-center min-h-[500px]"
+            >
+
+              {/* Red glow */}
+              <div className="absolute w-[380px] h-[380px] bg-red-600/30 blur-[120px] rounded-full" />
+
+              {/* Animated ring */}
+              <motion.div
+                animate={{ rotate: 360 }}
+                transition={{
+                  duration: 30,
+                  repeat: Infinity,
+                  ease: "linear"
+                }}
+                className="absolute w-[380px] h-[180px] border border-red-500/50 rounded-[50%]"
+              />
+
+              {/* Main image */}
+              <motion.img
+                src="/public/cube.png"
+                alt="Red futuristic portfolio artwork"
+                animate={{
+                  y: [0, -20, 0],
+                  rotate: [0, 2, 0, -2, 0],
+                }}
+                transition={{
+                  duration: 6,
+                  repeat: Infinity,
+                  ease: "easeInOut"
+                }}
+                className="relative z-10 w-full max-w-[650px] object-contain drop-shadow-[0_0_50px_rgba(255,0,40,0.45)]"
+              />
+
+            </motion.div>
+
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
-            {testimonialsData.slice(0, 4).map((testimonial, index) => (
-              <TestimonialCard key={testimonial.id} testimonial={testimonial} index={index} />
-            ))}
+
+          {/* Bottom line */}
+          <div className="border-t border-red-500/30 pt-8 mt-10">
+
+            <div className="flex flex-wrap items-center gap-8 text-white/50 text-sm uppercase tracking-widest">
+
+              <span>Follow Me</span>
+
+              <span>Instagram</span>
+              <span>Dribbble</span>
+              <span>Behance</span>
+              <span>LinkedIn</span>
+
+            </div>
+
           </div>
-        </div>
-      </section>
+
+        </section>
+
+      </main>
 
       <Footer />
-    </>
+
+    </div>
   );
 };
 
